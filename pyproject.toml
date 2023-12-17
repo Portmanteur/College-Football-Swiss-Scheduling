@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "cfb-swiss"
+version = "0.1.0"
+description = ""
+authors = ["pbailey529@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10.0,<3.11"
+numpy = "^1.22.2"
+replit = "^3.2.4"
+Flask = "^2.2.0"
+urllib3 = "^1.26.12"
+geopy = "^2.3.0"
+scipy = "^1.10.1"
+matplotlib = "^3.7.1"
+networkx = "^3.1"
+polars = "^0.18.0"
+xlsx2csv = "^0.8.1"
+pandas = "^2.0.2"
+openpyxl = "^3.1.2"
+
+[tool.poetry.dev-dependencies]
+debugpy = "^1.6.2"
+replit-python-lsp-server = {extras = ["yapf", "rope", "pyflakes"], version = "^1.5.9"}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
